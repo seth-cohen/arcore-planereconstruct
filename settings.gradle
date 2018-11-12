@@ -1,0 +1,4 @@
+include ':app', ':helpers', ':renderers'
+
+project(':helpers').projectDir = new File(settingsDir, '../Helpers/helpers')
+project(':renderers').projectDir = new File(settingsDir, '../Helpers/renderers')
